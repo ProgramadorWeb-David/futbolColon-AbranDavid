@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/*----------------------------------------
+              ESTILOS PROPIOS
+------------------------------------------*/
+.bg-naranja {
+  background-color: #ff401c }
+
+.text-naranja {
+  color: #ff401c}
+
+.btn-primary {
+  background-color: #ff401c !important;
+  border-color: #b51d00 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e82500 !important; }
+
+.btn-primary:active {
+  background-color: #b51d00 !important;
+  border-color: #821500 !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important; }
+
+/*--------------------------
+ESTILOS DEL DISEÑO
+---------------------------*/
+html {
+  font-size: 13px; }
+
+body {
+  color: #44484a;
+  font-family: 'Open Sans', sans-serif; }
+
+.fondo {
+  background: linear-gradient(to center, #d5d6d6 0%, #ccbabae5 50%, #d3cfcf 100%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #0c0c0c3b;
+          box-shadow: 0 0 10px #0c0c0c3b; }
+
+        
+/*------------------------
+SHOW DE LOS MEDIAS QUERIES
+------------------------*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=estilos.css.map */
+
+
+/** Estilos Texto Degradado **/
+.texto-degradado {
+  color: transparent;
+  background: linear-gradient(to right, #1073BA 0%, #00DA55 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+/** Estilo del h1 **/
+.info-h1,
+.letra {
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+/** Estilos del enlace **/
+.info-a {
+  color: rgb(110, 42, 187);
+  font-family: 'Mochiy Pop P One', sans-serif;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all .5ms;
+}
+
+.info-a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/** Estilos background de fondo **/
+.bg-gris {
+  background-color: #f2f2f2;
+}
+
+.box-skills {
+  margin: 10px 60px 0 0;
+}
+
+.box-skills > h4 {
+  font-size: 1.4rem;
+  padding: 10px 0 10px 15px;
+  margin-left: 1rem;
+  line-height: 2;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .box-skills {
+      text-align: center !important;
+    }
+}
+
+.box-skills h4 i {
+  color: #0ec46f;
+  font-size: 20px;
+}
+
+
+/** Estilos titulo revista h1 **/
+.rev-h1 {
+  color: transparent;
+  background: linear-gradient(to left, #24282b 0%, #e41111 50%, #821500 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/** Estilos de la galería **/
+.texto-degradado > h1 > span {
+  text-shadow: 5px 5px 5px rgb(218, 218, 218);
+}
+
+.gal-img {
+  opacity: .4;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.gal-img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
